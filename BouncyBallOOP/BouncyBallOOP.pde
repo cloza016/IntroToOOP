@@ -1,11 +1,16 @@
-Ball b;                //declare a new ball called b
+//declare balls
+Ball b;
+Ball c;
 
-void setup() {
-  size(1600, 1200);
-  b = new Ball();      //initialize b as a new object of the Ball class
+void setup(){
+  size(500,500);
+  //initialize balls as new objects of the Ball class
+  b=new Ball();
+  c=new Ball();
 }
 
-void draw() {
+void draw(){
   background(0);
-  b.display();         //call b's display() method
+  b.display();  //call b's display() method
+  c.display();
 }
