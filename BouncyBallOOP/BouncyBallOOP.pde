@@ -11,6 +11,13 @@ void setup(){
 
 void draw(){
   background(0);
-  b.display();  //call b's display() method
+  //call balls' move() method
+  b.move();
+  c.move();
+  //call balls' display() method
+  b.display();
   c.display();
+  //call balls' stay() method
+  b.stay();
+  c.stay();
 }
